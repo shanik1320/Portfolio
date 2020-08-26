@@ -5,6 +5,7 @@ BrowserRouter as Router,
 Route,
 } from "react-router-dom";
 import Navbar from './Components/Navbar';
+import Home from './Contents/Home';
 
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        <Route exact path="/">
+          <Home/>
+        </Route>
       </div>
     </Router>
   )
