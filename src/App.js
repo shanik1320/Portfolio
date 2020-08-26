@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar';
 import Home from './Contents/Home';
 import About from './Contents/About';
 import Education from './contents/Education';
+import Skills from './contents/Skills';
 
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
 
         <Route path="/education">
           <Education />
+        </Route>
+
+        <Route path="/skills">
+          <Skills />
         </Route>
 
       </div>
