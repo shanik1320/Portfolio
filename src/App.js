@@ -33,6 +33,10 @@ function App() {
           <Skills />
         </Route>
 
+        <Route path="/contact">
+          <Contact />
+        </Route>
+
       </div>
     </Router>
   )
