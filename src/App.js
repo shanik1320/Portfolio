@@ -7,6 +7,7 @@ import {
 import Navbar from './Components/Navbar';
 import Home from './Contents/Home';
 import About from './Contents/About';
+import Education from './contents/Education';
 
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
 
         <Route path="/about">
           <About />
+        </Route>
+
+        <Route path="/education">
+          <Education />
         </Route>
 
       </div>
