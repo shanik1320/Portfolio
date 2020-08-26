@@ -7,8 +7,9 @@ import {
 import Navbar from './Components/Navbar';
 import Home from './Contents/Home';
 import About from './Contents/About';
-import Education from './contents/Education';
-import Skills from './contents/Skills';
+import Education from './Contents/Education';
+import Skills from './Contents/Skills';
+import Contact from './Contents/Contact';
 
 
 function App() {
