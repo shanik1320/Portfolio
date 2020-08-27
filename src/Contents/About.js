@@ -14,9 +14,9 @@ class About extends Component {
                     I decided I want it to purse it and make something good out of it.
                     Web development has opened my eyes to many things and has challenged me
                     so much. Coding is my new life and I cant wait to see what it will bring.
-</p>
+                    </p>
             </div>
         )
     }
 }
-export default About
+export default About;
