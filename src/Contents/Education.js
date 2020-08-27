@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Widecard from '../components/Widecard';
+import Widecard from '../Components/Widecard';
 
 
 class Education extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Social from '../components/Social';
+import Social from '../Components/Social';
 
 
 class Contact extends Component {
